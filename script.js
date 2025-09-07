@@ -90,3 +90,4 @@ function editing(name,price_tag) {
     item_cost_entry.value = price_tag;
     item_input.value = name;
 }
+console.log('Hi')
