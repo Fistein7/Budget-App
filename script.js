@@ -50,7 +50,7 @@ function displayTodo() {
             const final_cost = cart[i].product_cost_entry_saver;
             const element = `
             <div class="single-todolist">
-            <div>${retrieveItem}</div>
+            <div class="Item">${retrieveItem}</div>
             <div class="single-todolist">${final_cost}$</div>
             <div class="single-todolist"><button onclick="
                 editing('${retrieveItem}',${final_cost});
