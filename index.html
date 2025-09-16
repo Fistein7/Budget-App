@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BudgetApp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-sections">
+            <div class="form-article one">
+                <div class="form1">
+                    <h2>Budget</h2>
+                    <input type="number" placeholder="Enter Total Amount" class="typing js-typing-budget"><br>
+                    <button id="bg-button" class="form-btn">Set Budget</button>
+                </div>
+            </div>
+            <div class="form-article two">
+                <div class="form2">
+                    <h2>Expenses</h2>
+                    <input type="text" placeholder="Enter Title of Product" class="typing js-typing-item"><br>
+                    <input type="number" placeholder="Enter Cost of Product" class="typing js-typing-item-cost"><br>
+                    <button id="check-amount" class="form-btn">Check Amount</button>
+                </div>
+            </div>
+        </div>
+       <!--Showing data-->
+        <div class="display-board">
+            <div class="result">
+                <h5>Total Budget</h5>
+                <p class="show-result js-total-budget">0</p>
+            </div>
+            <div class="result">
+                <h5>Expenses</h5>
+                <p class="show-result js-product-expense">0</p>
+            </div>
+            <div class="result">
+                <h5>Balance</h5>
+                <p class="show-result js-product-balance">0</p>
+            </div>
+        </div>
+        <!--TodoList-->
+        <div class="items-list">
+            <h4>Shopping List</h4>
+            <div class="table js-table">
+                
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
